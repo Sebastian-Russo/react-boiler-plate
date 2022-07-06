@@ -1,0 +1,13 @@
+{
+	"ccp_init": {
+		"ccpUrl": "https://aspensandbox.awsapps.com/connect/ccp-v2",
+		"loginUrl": "https://aspensandbox.awsapps.com/connect/login",
+		"region": "us-west-2",
+		"loginPopup": false
+	},
+	"customer_profile_url": "https://aspensandbox.awsapps.com/connect/customerprofiles-v2",
+	"api": {
+		"set_disposition": "https://3jscljxcw9.execute-api.us-east-1.amazonaws.com/set-disposition"
+	},
+	"version": "1.0.0"
+}

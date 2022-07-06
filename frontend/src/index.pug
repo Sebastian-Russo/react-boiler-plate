@@ -1,0 +1,11 @@
+html
+	head
+		title Contact Control Panel
+		for css in compilation.getAssets().map(s => s.name).filter(s => s.endsWith(".css"))
+			link(rel="stylesheet" type="text/css" href=css)
+
+	body
+		#root
+
+		//- script(src=htmlWebpackPlugin.options.custom.react_lib)
+		//- script(src=htmlWebpackPlugin.options.custom.react_dom_lib)
